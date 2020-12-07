@@ -174,11 +174,11 @@ img {
   max-width: 1600px;
   min-height: 600px;
   background-color: #C4C4C4;
-  background-image: url(../images/content/header.jpg);
-
- background-image: linear-gradient(
-   rgba(47, 48, 58, 0.4),
-   rgba(47, 48, 58, 0.4); 
+  
+  backgroung-image: linear-gradient
+  (to right, rgba(47, 48, 58, 0.4), 
+rgba(47, 48, 58, 0.4) ), 
+url(../images/content/header.jpg);
 
   background-size: cover;
   background-repeat: no-repeat;
