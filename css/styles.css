@@ -401,6 +401,7 @@ border-radius: 50%;
   color: var(--secondary-text-color);
 }
 
+
 /* Portfolio cards */
 
 .portfolio {
@@ -442,6 +443,12 @@ margin-top: 30px;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
+}
+
+.card:hover {
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+ 0px 4px 4px rgba(0, 0, 0, 0.06), 
+ 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /* Clients */
