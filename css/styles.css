@@ -87,6 +87,7 @@ img {
 
 .header {
   border-bottom: 1px solid #ececec;
+ 
 }
 
 .portfolio {
@@ -159,6 +160,9 @@ img {
 }
 .header-contacts-item-link {
   color: var(--secondary-text-color);
+  display: flex;
+  align-items: center;
+ 
 }
 .header-contacts-item-link:hover,
 .header-contacts-item-link:focus {
@@ -179,6 +183,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 
+
   margin-left: auto;
   margin-right: auto;
 
@@ -294,14 +299,13 @@ img {
   border: 1px solid 000000;
   border-radius: 0px 0px 4px 4px;
   background: #ffffff;
+  overflow: hidden;
 }
 .card-content {
   padding-top: 30px;
   padding-bottom: 30px;
   background: #ffffff;
   width: 270px;
-  border: 1px solid 000000;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .team-info-list-item-name {
